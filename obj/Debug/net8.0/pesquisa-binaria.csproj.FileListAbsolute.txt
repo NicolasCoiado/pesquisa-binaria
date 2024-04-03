@@ -1,0 +1,14 @@
+C:\Users\nicol\Desktop\pesquisa-binaria\bin\Debug\net8.0\pesquisa-binaria.exe
+C:\Users\nicol\Desktop\pesquisa-binaria\bin\Debug\net8.0\pesquisa-binaria.deps.json
+C:\Users\nicol\Desktop\pesquisa-binaria\bin\Debug\net8.0\pesquisa-binaria.runtimeconfig.json
+C:\Users\nicol\Desktop\pesquisa-binaria\bin\Debug\net8.0\pesquisa-binaria.dll
+C:\Users\nicol\Desktop\pesquisa-binaria\bin\Debug\net8.0\pesquisa-binaria.pdb
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.AssemblyInfoInputs.cache
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.AssemblyInfo.cs
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.dll
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\refint\pesquisa-binaria.dll
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.pdb
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.genruntimeconfig.cache
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\ref\pesquisa-binaria.dll
