@@ -12,3 +12,4 @@ C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\refint\pesquisa-binaria
 C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.pdb
 C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.genruntimeconfig.cache
 C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\ref\pesquisa-binaria.dll
+C:\Users\nicol\Desktop\pesquisa-binaria\obj\Debug\net8.0\pesquisa-binaria.sourcelink.json

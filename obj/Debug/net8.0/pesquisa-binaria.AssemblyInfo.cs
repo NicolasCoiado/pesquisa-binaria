@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pesquisa-binaria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67640a9efd254c10d1a2a1a59cb6c24226ae4090")]
 [assembly: System.Reflection.AssemblyProductAttribute("pesquisa-binaria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pesquisa-binaria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

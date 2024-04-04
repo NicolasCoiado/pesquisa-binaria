@@ -1,53 +1,48 @@
-﻿List<string> Nomes = ["Ana", "Pedro", "Maria", "João", "Carolina", "Lucas", "Gabriela", "André", "Mariana", "Rafael", "Juliana", "Fernando", "Camila", "Gustavo", "Isabela", "Rodrigo", "Natália", "Daniel", "Larissa", "Felipe"];
-
-Nomes.Sort();
-
-int qtdLista = Nomes.Count;
-string nomeProcurado = "Rodrigo";
-
-PesquisaBinaria(Nomes, qtdLista, nomeProcurado);
-
-int PesquisaBinaria(List<string> Nomes, int max, string nomeProcurado)
+﻿class Program
 {
-    double meio = max - 1 / 2;
-    int metade = (int)Math.Floor(meio);
-
-    Console.WriteLine("Máximo: " + max);
-    Console.WriteLine("Meio: " + metade);
-    Console.WriteLine("===================");
-    Console.WriteLine("0: " + Nomes[0]);
-    Console.WriteLine("1: " + Nomes[1]);
-    Console.WriteLine("2: " + Nomes[2]);
-    Console.WriteLine("3: " + Nomes[3]);
-    Console.WriteLine("4: " + Nomes[4]);
-    Console.WriteLine("5: " + Nomes[5]);
-    Console.WriteLine("6: " + Nomes[6]);
-    Console.WriteLine("7: " + Nomes[7]);
-    Console.WriteLine("8: " + Nomes[8]);
-    Console.WriteLine("9: " + Nomes[9]);
-    Console.WriteLine("10: " + Nomes[10]);
-    Console.WriteLine("11: " + Nomes[11]);
-    Console.WriteLine("12: " + Nomes[12]);
-    Console.WriteLine("13: " + Nomes[13]);
-    Console.WriteLine("14: " + Nomes[14]);
-    Console.WriteLine("15: " + Nomes[15]);
-    Console.WriteLine("16: " + Nomes[16]);
-    Console.WriteLine("17: " + Nomes[17]);
-    Console.WriteLine("18: " + Nomes[18]);
-    Console.WriteLine("19: " + Nomes[19]);
-
-    if (Nomes[meio].CompareTo(nomeProcurado) > 0)
+    static void Main(string[] args)
     {
+        List<string> Nomes = new List<string> { "Ana", "Pedro", "Maria", "João", "Carolina", "Lucas", "Gabriela", "André", "Mariana", "Rafael", "Juliana", "Fernando", "Camila", "Gustavo", "Isabela", "Rodrigo", "Natália", "Daniel", "Larissa", "Felipe" };
 
-    }
-    else if (Nomes[meio].CompareTo(nomeProcurado) < 0)
-    {
+        Nomes.Sort();
 
-    }
-    else
-    {
+        string nomeProcurado = "Rodrigo";
 
+        int inicio = 0;
+        int fim = Nomes.Count - 1; // ajustando o valor do fim para o índice correto
+
+        int resultado = PesquisaBinaria(Nomes, nomeProcurado, inicio, fim);
+
+        if (resultado == -1)
+        {
+            Console.WriteLine("Nome não encontrado");
+        }
+        else
+        {
+            Console.WriteLine($"O nome '{nomeProcurado}' foi encontrado na posição {resultado}");
+        }
     }
 
-    return 1;
+    static int PesquisaBinaria(List<string> Nomes, string nomeProcurado, int inicio, int fim)
+    {
+        if (inicio <= fim)
+        {
+            int meio = (inicio + fim) / 2;
+
+            if (Nomes[meio].CompareTo(nomeProcurado) < 0)
+            {
+                return PesquisaBinaria(Nomes, nomeProcurado, meio + 1, fim);
+            }
+            else if (Nomes[meio].CompareTo(nomeProcurado) > 0)
+            {
+                return PesquisaBinaria(Nomes, nomeProcurado, inicio, meio - 1);
+            }
+            else
+            {
+                return meio;
+            }
+        }
+
+        return -1; // Retorna -1 se o elemento não for encontrado
+    }
 }
